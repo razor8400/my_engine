@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{1c824a0c-e89e-46fa-b9a7-3409453753d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\gl">
+      <UniqueIdentifier>{b9eb8a1d-3882-4d48-9f0c-238ba9005e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\core">
+      <UniqueIdentifier>{a28cca3f-bcfc-4ee0-8672-f8bab003e4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\interface">
+      <UniqueIdentifier>{a92e9084-77af-47a4-8c0f-d2d53535fceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\math">
+      <UniqueIdentifier>{54ff171b-f2af-4e66-be2c-33a114a13405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\platform">
+      <UniqueIdentifier>{ce41c174-72ea-42e4-88eb-e9e8e46eb982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\renderer">
+      <UniqueIdentifier>{f9c87a35-b022-4208-91ee-2f05d60b41f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\utils">
+      <UniqueIdentifier>{003400e7-d629-44d5-ae6b-bfc1e5ea0098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\resources">
+      <UniqueIdentifier>{c81b24aa-181c-424e-9971-7c85aecbfa8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\platform\file_system">
+      <UniqueIdentifier>{4c3dde71-d7d5-4d5a-ad3f-3d92b3b7f0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\platform\window">
+      <UniqueIdentifier>{79d74cca-41a7-4d8d-b16e-bbe3060c31b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\platform\window\glfw">
+      <UniqueIdentifier>{6b99edd9-aa7a-4c2d-92f1-344d5d32083c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\platform\file_system\windows">
+      <UniqueIdentifier>{daf941c8-db52-47c0-8e8a-6029106bc310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{f99d2877-dea8-4635-bbcf-6c95f31c28c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\components">
+      <UniqueIdentifier>{d2fb8249-6df8-47c6-81b3-cd8c8f6dc60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\scripting">
+      <UniqueIdentifier>{91338e95-4c4a-4bbb-a358-6a0cf4d4ec67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\2d">
+      <UniqueIdentifier>{c8673621-45e8-48f2-a676-5eda910e875f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\platform\win32">
+      <UniqueIdentifier>{c7cbc21f-6103-4115-b693-9f2ec4af9577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\core\input">
+      <UniqueIdentifier>{52b55a80-30c3-4217-977a-e97ef2439244}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Sources\my_app_delegate.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\gl\gl.cpp">
+      <Filter>engine\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\core\application.cpp">
+      <Filter>engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\core\director.cpp">
+      <Filter>engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\math\mat4.cpp">
+      <Filter>engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\math\vector2d.cpp">
+      <Filter>engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\math\vector3d.cpp">
+      <Filter>engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\math\vector4d.cpp">
+      <Filter>engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\gl\shaders_manager.cpp">
+      <Filter>engine\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\core\game_object.cpp">
+      <Filter>engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\core\scene.cpp">
+      <Filter>engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\renderer\renderer.cpp">
+      <Filter>engine\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\gl\shader_program.cpp">
+      <Filter>engine\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\utils\image_utils.cpp">
+      <Filter>engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\platform\window\glfw3\window.cpp">
+      <Filter>engine\platform\window\glfw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\platform\file_system\windows\file_system.cpp">
+      <Filter>engine\platform\file_system\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\utils\file_utils.cpp">
+      <Filter>engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\components\scriptable_component.cpp">
+      <Filter>engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\scripting\binding.cpp">
+      <Filter>engine\scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\scripting\scripting.cpp">
+      <Filter>engine\scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\core\pool_manager.cpp">
+      <Filter>engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\core\ref.cpp">
+      <Filter>engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\resources\resources_manager.cpp">
+      <Filter>engine\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\resources\script.cpp">
+      <Filter>engine\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\resources\texture2d.cpp">
+      <Filter>engine\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\2d\sprite.cpp">
+      <Filter>engine\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\utils\logger.cpp">
+      <Filter>engine\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\platform\win32\platform.cpp">
+      <Filter>engine\platform\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\core\input\touch_dispatcher.cpp">
+      <Filter>engine\core\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\core\input\touch_listener.cpp">
+      <Filter>engine\core\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\math\rect.cpp">
+      <Filter>engine\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\components\action.cpp">
+      <Filter>engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Engine\components\box_collider2d.cpp">
+      <Filter>engine\components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Sources\my_app_delegate.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\gl\gl.h">
+      <Filter>engine\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\core\application.h">
+      <Filter>engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\core\director.h">
+      <Filter>engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\interface\app_delegate.h">
+      <Filter>engine\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\math\mat4.h">
+      <Filter>engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\math\vector2d.h">
+      <Filter>engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\math\vector3d.h">
+      <Filter>engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\math\vector4d.h">
+      <Filter>engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\gl\shaders.h">
+      <Filter>engine\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\gl\shaders_manager.h">
+      <Filter>engine\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\core\game_object.h">
+      <Filter>engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\core\scene.h">
+      <Filter>engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\renderer\renderer.h">
+      <Filter>engine\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\gl\libgl.h">
+      <Filter>engine\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\gl\shader_program.h">
+      <Filter>engine\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\utils\file_utils.h">
+      <Filter>engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\utils\image_utils.h">
+      <Filter>engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\platform\window\window.h">
+      <Filter>engine\platform\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\platform\file_system\file_system.h">
+      <Filter>engine\platform\file_system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\components\component.h">
+      <Filter>engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\components\scriptable_component.h">
+      <Filter>engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\scripting\binding.h">
+      <Filter>engine\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\scripting\scripting.h">
+      <Filter>engine\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\core\pool_manager.h">
+      <Filter>engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\core\ref.h">
+      <Filter>engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\core\type_info.h">
+      <Filter>engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\utils\vector.h">
+      <Filter>engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\resources\resource.h">
+      <Filter>engine\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\resources\resources_manager.h">
+      <Filter>engine\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\resources\script.h">
+      <Filter>engine\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\resources\texture2d.h">
+      <Filter>engine\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\common.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\config.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\engine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\2d\sprite.h">
+      <Filter>engine\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\utils\logger.h">
+      <Filter>engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\platform\platform.h">
+      <Filter>engine\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\core\input\touch_dispatcher.h">
+      <Filter>engine\core\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\core\input\touch_listener.h">
+      <Filter>engine\core\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\math\rect.h">
+      <Filter>engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\math\libmath.h">
+      <Filter>engine\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\components\action.h">
+      <Filter>engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Engine\components\box_collider2d.h">
+      <Filter>engine\components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Engine\utils\vector.inl">
+      <Filter>engine\utils</Filter>
+    </None>
+    <None Include="..\..\..\..\Engine\resources\resources_manager.inl">
+      <Filter>engine\resources</Filter>
+    </None>
+    <None Include="..\..\..\..\Engine\scripting\scripting.inl">
+      <Filter>engine\scripting</Filter>
+    </None>
+  </ItemGroup>
+</Project>
